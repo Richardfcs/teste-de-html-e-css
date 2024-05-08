@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #7EA1C4;
+}
+
+header {
+    padding: 2% 0% 0% 10%;
+    height: 42px;
+    background-color: #051122;
+}
+
+h1 {
+    display: flex;;
+
+    flex-direction: column;
+    justify-content: center;
+
+    color: #051122;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 64px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.menu {
+    display: flex;
+    gap: 80px;
+    margin: 5% 15%;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    color: #051122;
+    font-family: "Inter", sans-serif;
+    font-size: 28px;
+    font-weight: 400px;
+    padding: 28px;
+}
+
+.roberto {
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900px;
+    width: 589px;
+    height: 64px;
+    border-radius: 15px;
+    border: 3px solid #051122;
+    background: rgba(5, 17, 34, 0.25);
+    text-decoration: none;
+    }
+
+.imagem {
+    width: 530px;
+    height: 400px;
+    border: 1px solid #FFF;
+    background: #051122;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+footer {
+    border: 1px solid #FFF;
+    background: #288EC9;
+    height: 42px;
+    flex-shrink: 0;
+}
+
+.botão {
+
+    display: flex;
+    width: 693px;
+    height: 75px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    padding-left: 15px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 400;    
+    width: 757px;
+    height: 75px;
+    flex-shrink: 10;
+    border-radius: 50px;
+    background-color: rgba(5, 17, 34, 0.25);
+ }
+
+ h4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 204px;
+    height: 38px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+    width: 250px;
+    height: 60px;
+    border-radius: 15px;
+    border: 3px solid #051122;
+    background: rgba(5, 17, 34, 0.25);
+ }
+
+
+.menu3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+h6{
+    display: flex;
+    width: 238px;
+    height: 15px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+
+    color: #051122;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.branco {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    height: 25px;
+    padding-bottom: 100px;
+    text-decoration: none;
+}
